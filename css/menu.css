@@ -1,0 +1,117 @@
+.coffee-circle__header {
+    position: absolute;
+    bottom: 1108px;
+    left: 750px;
+    background-color: #393939;
+    color: white;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-weight: 300;
+    font-size: 3.75rem;
+}
+
+.coffee-circle {
+    position: relative;
+    width: 100vw;
+    align-items: center;
+}
+
+.coffee-circle img {
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    width: 100%;
+    
+}
+.menu-list {
+    background-color: #393939;
+    margin: 0;
+    text-align: center;
+
+    
+
+}
+
+.menu-list li {
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #393939;
+    color: white;
+    padding-left: 0;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    border-left: solid #5bacc5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.menu-container--pink {
+    background-color: #fff0ed;
+}
+
+.menu-container__list-item--name {
+    
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-style: bold;
+    font-size: 2.0625rem;
+    font-weight: 400;
+}
+
+.menu-container__header {
+    text-align: center;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-style: bold;
+    font-size: 3.75rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.overall-container {
+    
+    grid-template-rows: 3fr;
+    row-gap: 3ch;
+    
+
+}
+
+.menu-container--grey {
+    background-color: #f7f7f7;
+}
+
+.menu-container__list-item--def {
+    width:20%;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-style: italic;
+    font-size: 1.125rem;
+    margin: 0 auto;
+
+}
+
+.menu-container__list-item--price {
+    text-align: center;
+    color: #5bacc5;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}
+
+
+.menu-container__list {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+

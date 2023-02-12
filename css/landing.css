@@ -1,0 +1,199 @@
+
+.product-section__img {
+    height: 280px;
+}
+
+.nitro-section__shop-btn {
+    color: white;
+    background-color: #5bacc3;
+    font-size: 1.3125rem;
+    border: none;
+    width: 11.25rem;
+    padding: 1.25rem;
+    font-weight: 500;
+    align-self: flex-end;
+    justify-content: center;
+    
+    
+}
+
+.product-section__price {
+    font-size: 2rem;
+    color: #5bacc3;
+    font-weight: 700;
+    font-style: bold;
+    font-family: 'Open Sans Regular', sans-serif;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+
+.nitro-section {
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    justify-content: space-between;
+}
+
+.product-section__header {
+    font-size: 60px;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+    text-align: center;padding-top: 40px;
+}
+
+.product-card__header {
+    font-size: 2rem;
+    font-weight: 300;
+    margin:0;
+    padding-top: 35px;
+    display: flex;
+    padding-left: 10px;
+   
+    
+}
+
+.discount-code {
+    background-color: #393939;
+    color: white;
+    width: 90%;
+    height: 40%;
+    text-align: center;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 45px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+.nitro-section__header {
+    color: #393939;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-weight: 300;
+    font-size: 2.0625rem;
+    margin-top: 0;
+    
+    
+    
+}
+.section--pink {
+    background-color: #fff0ed;
+
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.product-card {
+    width: 330px;
+    height: 440px;
+    
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+    text-align: center;
+    background-color:#fff0ed;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product-card img {
+    padding-top: 20px;
+}
+
+.footer__header {
+    font-size: 33px;
+    font-weight: 400;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+.nitro-section__text {
+    flex-wrap: wrap;
+    font-size: 1.125rem;
+    font-weight: 500;
+    display: flex;
+}
+
+.nitro-section__container {
+    max-width: 26%;
+}
+
+
+
+.img-container {
+    margin-left: 100px;
+   
+}
+
+
+.grey {
+    background-color: #f7f7f7;
+}
+
+.button-container {
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    padding:50px 0;
+}
+
+.discount-code__section {
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.footer-container p {
+    margin: 0;
+    
+}
+
+.product-card__info {
+    display: flex;
+    background-color: #fff0ed;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+}
+
+.product-card__info div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.product-card__serving-size {
+    margin: 0;
+    padding-left: 10px;
+    color: #909090;
+}
+
+.image-container {
+    background-color: white;
+    border-top: 10px;
+}
+
+.footer-container__address {
+    font-weight: 600;
+}
