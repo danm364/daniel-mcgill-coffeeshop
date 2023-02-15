@@ -1,58 +1,64 @@
 .coffee-circle__header {
-    position: absolute;
-    bottom: 1108px;
-    left: 750px;
+
     background-color: #393939;
     color: white;
     width: 300px;
     height: 200px;
-    text-align: center;
-    padding-top: 10px;
     font-family: 'Open Sans Regular', sans-serif;
     font-weight: 300;
     font-size: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.nav-bar {
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
 
 .coffee-circle {
-    position: relative;
+   
     width: 100vw;
+    height: 1000px;
     align-items: center;
+    background-image: url("../assets/images/coffee-circle.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
-.coffee-circle img {
-    background-position: center;
-    background-size: cover;
-    align-items: center;
-    width: 100%;
-    
-}
+
+
 .menu-list {
     background-color: #393939;
     margin: 0;
     text-align: center;
+    height: 80px;
+    vertical-align:middle;
+}
 
-    
-
+.menu-list__container {
+    vertical-align:text-bottom
 }
 
 .menu-list li {
-    width: 100%;
-    
-    align-items: center;
-    justify-content: center;
-    background-color: #393939;
     color: white;
-    padding-left: 0;
     font-size: 1.3125rem;
     font-weight: 400;
-    text-align: center;
-    list-style-type: none;
     display: inline;
     border-left: solid #5bacc5;
     padding-left: 1rem;
     padding-right: 1rem;
-    
+    border-width: 4px;      
 }
+
+
 
 .menu-container--pink {
     background-color: #fff0ed;
