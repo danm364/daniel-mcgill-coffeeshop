@@ -1,0 +1,57 @@
+@import "variables.scss";
+
+
+
+
+
+
+.menu-container--pink {
+    background-color: $primary-background;
+}
+
+.menu-container__list-item--name {
+    
+    text-align: center;
+    list-style-type: none;
+    font-family: $bold-font;
+    font-size: 2.0625rem;
+    
+}
+
+.menu-container__header {
+    text-align: center;
+    font-family: $bold-font;
+    font-size: 3.75rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+
+
+.menu-container--grey {
+    background-color: $secondary-background;
+}
+
+.menu-container__list-item--def {
+    width:20%;
+    list-style-type: none;
+    text-align: center;
+    font-family: $bold-font;
+    font-style: italic;
+    font-size: 1.125rem;
+    margin: 0 auto;
+
+}
+
+.menu-container__list-item--price {
+    text-align: center;
+    color: #5bacc5;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}
+
+
+.menu-container__list {
+    list-style-type: none;
+    margin-bottom: 0;
+}

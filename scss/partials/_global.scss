@@ -1,0 +1,47 @@
+@use "./variables";
+
+
+
+
+body {
+    font-family: variables.$text-font;
+    font-weight: 400;
+    color: variables.$text-color;
+    margin: 0;
+}
+
+.nitro-heading-nav {
+
+    font-weight: 300;
+    font-size: 4rem;
+    display: inline;
+    
+}
+
+.nav-list {
+    display: inline;
+}
+
+
+.nav-list__btn {
+    display: inline;
+    margin-left: 50px;
+
+    & a {
+        text-decoration: none;
+        color: variables.$text-color;
+        font-size: 1.75rem;
+
+        &:hover {
+
+            color: variables.$highlight-color;
+        }
+    }       
+}
+
+
+nav {
+    background-color: variables.$primary-background;
+    height: 100px;
+}
+

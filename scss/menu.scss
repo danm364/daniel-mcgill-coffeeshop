@@ -1,0 +1,88 @@
+@use './partials/global' as *;
+@use './partials/menu-sections' as *;
+@use "./partials/effects" as *;
+
+@use "./partials/variables";
+
+
+
+
+.coffee-circle__header {
+
+    background-color: #393939;
+    color: white;
+    width: 300px;
+    height: 200px;
+    font-family: variables.$bold-font;
+    font-weight: 300;
+    font-size: 3.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+
+    
+}
+
+.outline-anchor {
+    position: relative;
+}
+
+
+.black-box {
+    @include hovering-box(#5BACC3, 5px, 10px);
+}
+
+.nav-bar {
+    display: flex;;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.coffee-circle {
+   
+    width: 100vw;
+    height: 1000px;
+    align-items: center;
+    background-image: url("../assets/images/coffee-circle.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu-list {
+    background-color: #393939;
+    margin: 0;
+    text-align: center;
+    height: 80px;
+    vertical-align:middle;
+}
+
+.menu-list__container {
+    vertical-align:text-bottom
+}
+
+.menu-list li {
+    color: white;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    display: inline;
+    border-left: solid #5bacc5;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-width: 4px;      
+}
+
+.list-padding {
+    background-color:variables.$text-color;
+    padding-top: 60px;
+}
+
+
+
