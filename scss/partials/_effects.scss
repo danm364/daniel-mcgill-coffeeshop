@@ -12,3 +12,8 @@
     right: $offset;
 
 }
+
+@mixin btn-animation {
+    bottom: 0;
+    right: 0;
+}

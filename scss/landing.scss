@@ -1,5 +1,5 @@
 @use './partials/global' as *;
-
+@use '../scss/partials/effects' as *;
 
 
 .product-section__img {
@@ -15,7 +15,7 @@
     padding: 1.25rem;
     font-weight: 500;
     align-self: flex-end;
-    justify-content: center; 
+    
     
 }
 .relative-anchor {
@@ -23,7 +23,20 @@
     display:flex;
     width: 11.25rem;
 
+    &:active {
+        @include btn-animation;
+
+    }
+    
+
 }
+
+.relative-anchor:active .black-box {
+    right: 0;
+    bottom: 0;
+}
+
+
 .black-box {
     background-color: rgba(0, 0, 0, 0.001);
     display: flex;
@@ -74,6 +87,18 @@
     
 }
 
+
+@keyframes flashing-light {
+    from {
+        background-color: #393939;
+    }
+
+    to {
+        background-color: #5bacc3;
+    }
+}
+
+
 .discount-code {
     background-color: #393939;
     color: white;
@@ -87,6 +112,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: flashing-light infinite 2s alternate;
     
 }
 
@@ -168,6 +194,8 @@ span {
     justify-content: center;
     padding:50px 0;
 }
+
+
 
 .discount-code__section {
     height: 75vh;
@@ -270,12 +298,29 @@ span {
     
 }
 
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
 .slogan-container__tilted {
     height: 280px;
     padding: 20px;
     margin: 20px;
     position: absolute;
-    transform: translate(50%, 10%);
+    left: 60px;
+    z-index: 30;
+
+    &:hover {
+        animation: rotate 2s infinite linear;
+    }
 
 }
 

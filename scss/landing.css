@@ -46,13 +46,21 @@ nav {
   padding: 1.25rem;
   font-weight: 500;
   align-self: flex-end;
-  justify-content: center;
 }
 
 .relative-anchor {
   position: relative;
   display: flex;
   width: 11.25rem;
+}
+.relative-anchor:active {
+  bottom: 0;
+  right: 0;
+}
+
+.relative-anchor:active .black-box {
+  right: 0;
+  bottom: 0;
 }
 
 .black-box {
@@ -101,6 +109,14 @@ nav {
   padding-left: 10px;
 }
 
+@keyframes flashing-light {
+  from {
+    background-color: #393939;
+  }
+  to {
+    background-color: #5bacc3;
+  }
+}
 .discount-code {
   background-color: #393939;
   color: white;
@@ -114,6 +130,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: flashing-light infinite 2s alternate;
 }
 
 span {
@@ -277,12 +294,24 @@ span {
   font-family: "Open Sans Regular", sans-serif;
 }
 
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .slogan-container__tilted {
   height: 280px;
   padding: 20px;
   margin: 20px;
   position: absolute;
-  transform: translate(50%, 10%);
+  left: 60px;
+  z-index: 30;
+}
+.slogan-container__tilted:hover {
+  animation: rotate 2s infinite linear;
 }
 
 .slogan-container__relative {
